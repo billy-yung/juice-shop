@@ -160,6 +160,7 @@
     "svg-captcha": "^1.4.0",
     "swagger-ui-express": "^4.1.4",
     "tinymce": "4.8.5",
+    "ua-parser-js": "0.6.2",
     "unzipper": "0.9.15",
     "winston": "^3.3.3",
     "yaml-schema-validator": "^1.2.2",
