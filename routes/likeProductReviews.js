@@ -14,6 +14,7 @@ module.exports = function productReviews () {
     const user = insecurity.authenticatedUsers.from(req)
     db.reviews.findOne({ _id: id }).then(review => {
       var likedBy = review.likedBy
+      //testing
       if (!likedBy.includes(user.data.email)) {
         db.reviews.update(
           { _id: id },
